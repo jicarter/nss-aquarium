@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+  }
+  
+main {
+    display: flex;
+}
+  .fishList {
+      border: 3px black;
+  }
+
+  .quotes {
+    border: 3px black;
+  }
+
+  .locations {
+      border: 3px black;
+  }
+
+  .tankTips {
+      border: 3px black;
+  }
+
+ .container--left {
+     flex: 3;
+     margin-right: 25px;
+     display: flex;
+     flex-direction: column;
+     align-content: space-between;
+ }
+ 
+  .container--right {
+      flex:1
+  }
+
+  .location__image {
+      width:300px; 
+      height:400px;
+  }
+  
+  .fish__image {
+     width:200px;
+     height:300px; 
+  }
+ 
