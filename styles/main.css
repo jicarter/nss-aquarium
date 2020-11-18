@@ -1,5 +1,10 @@
 body {
-    background-color: aqua;
+    background-image: url("../images/ocean_background.png");
+    background-color: #cccccc; 
+    height: 1700px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 header {
@@ -36,6 +41,7 @@ main {
   
   .tip {
       padding: 1em;
+      color: white;
   }
 
   .container--left {
@@ -57,6 +63,15 @@ main {
       width:300px; 
       height:400px;
   }
+
+  .location__name {
+      text-decoration: underline;
+  }
+
+  .location_url {
+      font-size: 2em;
+      color: red;
+  }
   
   .fish__image {
      width:200px;
@@ -69,22 +84,29 @@ main {
   }
   .fish {
       padding: 1em;
+      color: white;
   }
 
   .quote {
       padding: 1em;
+      color: white;
+      font-size: 1em;
   }
 
   .location__description {
       padding: 1em;
+      color: white;
   }
 
   .location__name {
       font-size: 2em;
+      color: white;
   }
 
   h2 {
+      font-size: 2em;
       font-family: Comic Sans MS, Comic Sans, cursive;
+      color: yellow;
   }
 
   .fish__name {
