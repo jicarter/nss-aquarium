@@ -10,31 +10,35 @@ main {
     display: flex;
 }
   .fishList {
-      border: 3px black;
+      border: solid 3px black;
   }
 
   .quotes {
-    border: 3px black;
+    border: solid 3px black;
   }
 
   .locations {
-      border: 3px black;
+      border: solid 3px black;
   }
 
   .tankTips {
-      border: 3px black;
+      border: solid 3px black;
+      min-height: 250px;
+      padding: 1rem;
   }
 
- .container--left {
-     flex: 3;
+  .container--left {
+    flex: 3;
      margin-right: 25px;
      display: flex;
      flex-direction: column;
      align-content: space-between;
- }
+ } 
  
   .container--right {
-      flex:1
+      flex:1;
+      min-height: 250px;
+    
   }
 
   .location__image {
