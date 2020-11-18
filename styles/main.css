@@ -5,6 +5,11 @@ body {
 header {
     display: flex;
   }
+
+  h1 {
+      font-size: 6em;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+  }
   
 main {
     display: flex;
@@ -15,16 +20,22 @@ main {
 
   .quotes {
     border: solid 3px black;
+    padding: 1em;
   }
 
   .locations {
       border: solid 3px black;
+      padding: 1em;
   }
 
   .tankTips {
       border: solid 3px black;
       min-height: 250px;
       padding: 1rem;
+  }
+  
+  .tip {
+      padding: 1em;
   }
 
   .container--left {
@@ -33,12 +44,13 @@ main {
      display: flex;
      flex-direction: column;
      align-content: space-between;
+     padding: 1rem;
  } 
  
   .container--right {
       flex:1;
       min-height: 250px;
-    
+      padding-top: 1em;
   }
 
   .location__image {
@@ -54,4 +66,26 @@ main {
   .fishList {
       display: flex;
   }
+  .fish {
+      padding: 1em;
+  }
+
+  .fish.card {
+      padding: 1em;
+  }
  
+  .quote {
+      padding: 1em;
+  }
+
+  .location__description {
+      padding: 1em;
+  }
+
+  .location__name {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-family: Comic Sans MS, Comic Sans, cursive;
+  }
