@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/ocean_background.png");
     background-color: #cccccc; 
-    height: 1700px; 
+    height: 1800px; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -71,6 +71,7 @@ main {
   .location_url {
       font-size: 2em;
       color: red;
+      border: solid 4px yellow;
   }
   
   .fish__image {
@@ -96,11 +97,13 @@ main {
   .location__description {
       padding: 1em;
       color: white;
+      font-size: 2em;
   }
 
   .location__name {
+      font-family: Comic Sans MS, Comic Sans, cursive;
       font-size: 2em;
-      color: white;
+      color: yellow;
   }
 
   h2 {
@@ -112,4 +115,14 @@ main {
   .fish__name {
       font-family: Comic Sans MS, Comic Sans, cursive;
       text-decoration: underline;
+  }
+
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
