@@ -65,15 +65,12 @@ main {
 
   .fishList {
       display: flex;
+      padding: 1em;
   }
   .fish {
       padding: 1em;
   }
 
-  .fish.card {
-      padding: 1em;
-  }
- 
   .quote {
       padding: 1em;
   }
@@ -88,4 +85,9 @@ main {
 
   h2 {
       font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  .fish__name {
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      text-decoration: underline;
   }
