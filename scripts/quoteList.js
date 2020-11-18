@@ -5,11 +5,11 @@ export const quoteList = () => {
 
     // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".quote")
-    const allTheQuotes = useQuotes()
+    const allTheQuotes = useQuote()
 
     for (const quoteObject of allTheQuotes) {
     
-        const quoteHTML = Fish(quoteObject)
+        const quoteHTML = Quote(quoteObject)
     
     // Add to the existing HTML in the content element
     contentElement.innerHTML += quoteHTML
