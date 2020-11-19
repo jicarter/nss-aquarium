@@ -45,7 +45,9 @@ main {
   
   .tip {
       padding: 1em;
-      color: white;
+      color:black;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      border: solid 2px black;
   }
 
   .container--left {
@@ -64,8 +66,9 @@ main {
   }
 
   .location__image {
-      width:300px; 
+      width:400px; 
       height:400px;
+      border: solid 2px black;
   }
 
   .location__name {
@@ -80,24 +83,28 @@ main {
   
   .fish__image {
      width:200px;
-     height:300px; 
+     height:300px;
+     border: solid 2px black;
   }
 
   .fishList {
       display: flex;
       padding: 1em;
+      
   }
   .fish {
       padding: 1em;
-      color: purple;
+      color: black;
       font-family: Comic Sans MS, Comic Sans, cursive;
+      border: solid 2px black;
   }
 
   .quote {
       padding: 1em;
-      color: purple;
+      color: black;
       font-size: 1em;
       font-family: Comic Sans MS, Comic Sans, cursive;
+      text-decoration: underline black;
   }
 
   .location__description {
