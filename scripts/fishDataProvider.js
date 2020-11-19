@@ -51,7 +51,7 @@ export const soldierFish = () => {
 
     for (const fish of fishCollection) {
         if (fish.length % 5 ===0 && fish.length % 3 !== 0)
-        soldierFish.push(fish)
+        soldiers.push(fish)
     }
     return soldiers
 }
@@ -62,7 +62,7 @@ export const nonHolyFish = () => {
 
     for (const fish of fishCollection) {
         if (fish.length % 5 !== 0 && fish.length % 3 !== 0)
-        nonHolyFish.push(fish)
+        regularFish.push(fish)
     }
 
     return regularFish
