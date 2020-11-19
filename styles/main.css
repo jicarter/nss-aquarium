@@ -89,13 +89,15 @@ main {
   }
   .fish {
       padding: 1em;
-      color: white;
+      color: purple;
+      font-family: Comic Sans MS, Comic Sans, cursive;
   }
 
   .quote {
       padding: 1em;
-      color: orangered;
+      color: purple;
       font-size: 1em;
+      font-family: Comic Sans MS, Comic Sans, cursive;
   }
 
   .location__description {
