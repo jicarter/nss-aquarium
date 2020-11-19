@@ -1,6 +1,6 @@
 const quoteCollection = [
     {
-        text: 'To bodly go where no man has gone before...',
+        text: 'To boldly go where no man has gone before...',
         author: 'Captain James Tiberius Kirk'
     }
     ,
